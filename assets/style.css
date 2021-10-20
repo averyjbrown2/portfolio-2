@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.name {
+    /* background-color: rgb(154, 223, 196); */
+    padding: 2px;
+  
+    text-align: center;
+    font-family: 'Abel', sans-serif; 
+    font-size: 30px;
+    background-color: grey;
+    opacity: 0.7;
+}
+
+.hello {
+    font-size: 50px;
+    font-family: 'Abel', sans-serif;
+}
+
+html { 
+    background: url("https://images.unsplash.com/photo-1507810670121-b08efd787765?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hhcmxvdHRlJTIwbmN8ZW58MHx8MHx8&ixlib=rb-1.2.1&w=1000&q=80") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  }
+
+img {
+    height: 400px;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-right: 10px;
+    float:left;
+}
+
+.bio {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    background-color: grey;
+    opacity: 0.7;
+    margin-left: 720px;
+    padding: 15px;
+}
+.skills {
+    margin-right: 15px;
+    padding-left: 15px;
+    width: 350px;
+    float: left;
+    height: 400px;
+    font-size: 20px;
+    background-color: grey;
+    opacity: 0.7;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    border-radius: 0.5em; */
+}
+
+
+th {
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+td {
+ font-size: 24px;
+}
+
+.container {
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
