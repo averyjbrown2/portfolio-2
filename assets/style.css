@@ -43,6 +43,7 @@ img {
     opacity: 0.8;
     margin-left: 720px;
     padding: 15px;
+    border-radius: 0.5em;
 }
 .skills {
     margin-right: 15px;
@@ -54,9 +55,9 @@ img {
     background-color: white;
     opacity: 0.8;
     font-weight: bold;
-    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: white;
-    border-radius: 0.5em; */
+    /* /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    background-color: white;*/
+    border-radius: 0.5em; 
 }
 
 
@@ -81,7 +82,7 @@ td {
 
 @media screen (max-width: 720px) {
     .skills {
-        
+
     }
 }
     
