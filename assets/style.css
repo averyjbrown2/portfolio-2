@@ -7,33 +7,35 @@
 
 
 .topnav {
-    background-color: rgb(181, 221, 196);
+    background-color: black;
     font-family: 'Abel', sans-serif; 
     overflow: hidden;
     margin: 0;
 }
 
 .topnav a {
+    color: white;
     float:left;
 }
 
 .nav-tab {
     padding-right: 10px;
 }
-.active.name {
-    color: white;
-    background-color: black;
-}
 
 .title {
-    background-color: grey;
+    background-color: rgb(181, 221, 196);
+    /* background-color: grey; */
     margin:0;
     font-size: 40px;
     font-family: 'Abel', sans-serif; 
-    
+}
+
+.a.navtab {
+    color:white;
 }
 
 .topnav-right {
+    color: white;
     float: right;
     font-size: 40px;
 }
@@ -47,6 +49,8 @@
     font-size: 60px;
     color: black;
 }
+
+
 
 html { 
     background: url("");
@@ -116,8 +120,9 @@ a:visited {
     /* rgb(52, 33, 97); */
 }
 
-a:hover {
-    color: rgb(8, 90, 45);
+a.h4, a:hover {
+    color:white;
+    background-color: grey;
 }
 
 th {
