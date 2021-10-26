@@ -135,8 +135,12 @@ td {
 
 .container {
     font-family: 'DM Sans', sans-serif;
-
 }
+
+.prod-planner, .devconnect, .ultimutt {
+    float:left;
+}
+
 
 .clearfix::after {
     content: "";
